@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  background-color:#F0ECE3;
+  overflow: auto;
+
+}
+
+h1 {
+  font-size: 5rem;
+  color: red;
+  font-family: "Arvo", cursive;
+  text-shadow: 10px 0 #DBEDF3;
+  padding: 2%;
+}
+
+footer {
+  color: grey;
+  font-family: sans-serif;
+  padding: 5%;
+}
+
+h3 {
+  text-decoration: none;
+    font-family: "Arvo", cursive;
+}
+a{
+  text-decoration: none;
+  text-shadow: 2px;
+}
+a:hover{
+  color: red;
+}
+
+.main-row {
+  padding: 2% 8%;
+}
+
+.num-img {
+  width: 70%;
+  border-radius: 20px;
+  border-style: double;
+  border-color: #FC9918;
+  box-shadow: 7px 5px 5px 7px #FC9918;
+}
+
+.abc-img {
+  width: 70%;
+  height: 100%;
+  border-radius: 20px;
+  border-style: double;
+  border-color: #FC9918;
+  opacity: 0.8;
+  box-shadow: 7px 5px 5px 7px #FC9918;
+}
+
+.card-style {
+  border-radius: 20px;
+  border-style: double;
+  border-color: #FC9918;
+  opacity: 0.8;
+  box-shadow: 7px 5px 5px 7px #FC9918;
+}
+
+.btnStyle{
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 100px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: 7px 5px 5px 7px #FC9918;
+}
+.headingStyle{
+  font-size: 5rem;
+}
+@media (max-width:1023px) {
+   body{
+     padding-left:  10px;
+     padding-right: 10px;
+   }
+  .title {
+    font-size: 2.5rem;
+    padding: 1%;
+  }
+
+  .main-row {
+    padding: 2%;
+  }
+
+  .main-col {
+    padding: 2%;
+  }
+
+  .abc-img {
+    height: 100%;
+  }
+}
